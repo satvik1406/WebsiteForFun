@@ -1,0 +1,578 @@
+body{
+	text-align: center;
+	font-family: 'magic_school_oneregular';
+	color: white;
+	background-image: linear-gradient(black,#0a0808,#0a2142,#1c3963,#177b82,#b4c2d6);
+}
+
+/* Header */
+#header-nav {
+	background-color: black;
+	border: none;
+}
+
+#hog-logo{
+	width: 50px;
+	height: 50px;
+	margin: 10px 15px 10px 0;
+}
+
+#brand-edits {
+	font-size: 1.75em;
+	color: #ded2bd;
+	font-weight: 500;
+	margin-top: 7px;
+	margin-left: 15px;
+	margin-bottom: 0;
+}
+
+#tagline {
+	font-size: 1em;
+	margin-left: 15px;
+}
+
+.navbar-brand {
+	margin: 0px;
+	padding: 0;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #ded2bd;
+}
+
+/* Header */
+
+/* Homepage Content */
+#wel {
+
+	color: black;
+	text-shadow: 0 0 3px #000000;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  letter-spacing: .005em; /* Adjust as needed */
+  animation: 
+    typing 15s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+#wel {
+	font-size: 70px;
+	text-align: center;
+	color: #ded2bd;
+}
+
+.container .jumbotron {
+	margin-top: 15px;
+	padding: 0;
+	border: 1px solid black;
+	box-shadow: 0 0 15px #ded2bd;
+}
+
+#letterbox {
+	background: url('../images/paper.jpg');
+	border-radius: 5px;
+	height: 150px;
+	border: 1px solid #ded2bd;
+	margin: 25px auto 25px auto;
+	position: relative;
+}
+
+#letterbox img {
+	margin: 35px auto 0 auto;
+
+}
+
+#letterbox span {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 2em;
+	color: #ded2bd;
+	text-decoration: none;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#letterbox:hover {
+	box-shadow: 0 0 10px #ded2bd; 
+}
+/* Homepage Content */
+
+/* Letter */
+
+#letter {
+	border: 2px solid black;
+	box-shadow: 0 0 10px #ded2bd; 
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 800px;
+	background: url('../images/papbg.jpg');
+}
+
+#letter img {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 150px;
+	height: 150px;
+}
+
+#letter p {
+	font-size: 2em;
+	color: #012101;
+}
+
+#letter p:nth-child(2) {
+	font-weight: 500;
+	color: #002000;
+	text-shadow: 0 0 3px #012101;
+
+}
+
+#letter p:nth-child(3), #letter p:nth-child(4), #letter p:nth-child(5),#letter p:nth-child(6), #letter p:nth-child(7) {
+	font-family: 'Caveat', cursive;
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: left;
+}
+
+#letter p:nth-child(7) {
+	font-weight: bold;
+}
+
+
+/* Letter */
+
+
+/* Sortng */
+	
+#sorting-title{
+	color: #ded2bd;
+	font-size: 70px;
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+#sorting-content > div {
+	color: #ded2bd;
+	font-size: 1.5em;
+	margin-bottom: 35px;
+}
+
+.sorting-item-tile {
+	font-family:'magic_school_oneregular',cursive;
+	text-align: left;
+	margin-bottom: 30px;
+
+}
+
+.sorting-item-tile hr {
+	width: 75%;
+}
+
+.sorting-item-photo {
+	position: relative;
+	border-collapse: 100;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	max-width: 250px;
+}
+
+.sorting-item-description {
+	margin: 30px 0 auto 0;
+}
+
+h3.sorting-item-title {
+	font-weight: 575;
+	font-size: 2.25em;
+	margin-top: 0;
+	color: #FF8C00;
+}
+
+.sorting-item-details {
+	font-size: 1.3em;
+}
+/* Sortng */
+
+/* Spells */
+
+#spell-title, #profile-title{
+	color: #ded2bd;
+	font-size: 70px;
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+#spell-content > div {
+	color: #ded2bd;
+	font-size: 1.5em;
+	margin-bottom: 35px;
+}
+
+.spell-item-tile {
+	font-family: 'Caveat', cursive;
+	text-align: left;
+	margin-bottom: 30px;
+
+}
+
+.spell-item-tile hr {
+	width: 75%;
+}
+
+.spell-item-photo {
+	position: relative;
+	border: 2px solid white;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	max-width: 250px;
+}
+
+.spell-item-description {
+	margin: 30px 0 auto 0;
+}
+
+h3.spell-item-title {
+	font-weight: 575;
+	font-size: 2.25em;
+	margin-top: 0;
+	color: #FF8C00;
+}
+
+.spell-item-details {
+	font-size: 1.3em;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+  background-color: transparent;
+  width: 250px;
+  height: 275px;
+  
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 250px;
+  height: 275px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 250px;
+  height: 275px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Spells */
+
+/* Profile*/
+#profile-title, #profile-title{
+	color: #ded2bd;
+	font-size: 70px;
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+#profile-content > div {
+	color: #ded2bd;
+	font-size: 1.5em;
+	margin-bottom: 35px;
+}
+
+.profile-item-tile {
+	
+	text-align: left;
+	margin-bottom: 30px;
+
+}
+
+.profile-item-tile hr {
+	width: 75%;
+}
+
+.profile-item-photo {
+	position: relative;
+	border: 2px solid white;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	max-width: 250px;
+}
+
+.profile-item-description {
+	margin: 30px 0 auto 0;
+}
+
+h3.profile-item-title {
+	font-weight: 575;
+	font-size: 2.25em;
+	margin-top: 0;
+	color: black;
+}
+
+.profile-item-details {
+	font-size: 1.3em;
+}
+
+#profile-title {
+
+	color: black;
+	text-shadow: 0 0 3px #fcf8f7;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin-top: 50px;
+  letter-spacing: .005em; /* Adjust as needed */
+  animation: 
+    typing 15s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+#lback {
+	border: 2px solid black;
+	box-shadow: 0 0 10px #ded2bd; 
+	margin-left: auto;
+	margin-right: auto;
+	height: 2000px;
+	background: url('../images/backimag2.png');
+}
+
+#lback img {
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	width: 250px;
+	height: 350px;
+	border: 2px solid black;
+	box-shadow: 0 0 10px maroon;
+}
+
+@media (max-width: 962px){
+
+	#lback{
+		height: 3000px;
+	}
+	#lback img {
+		float: none;
+		margin-left: 0px;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		width: 250px;
+		height: 350px;
+		border: 2px solid black;
+		box-shadow: 0 0 10px maroon;
+	}
+}
+
+#lback h3{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 2em;
+	color: #012101;
+}
+
+#lback p{
+	margin: auto;
+	font-size: 2.2em; 
+	text-align: ; 
+	color: #002000;
+	text-shadow: 0 0 3px #ff0814; 
+}
+
+#lback > div > ul > li{
+	margin: auto;
+	font-size: 2.2em; 
+	text-align: ; 
+	color: #002000;
+	text-shadow: 0 0 3px #ff0814; 
+}
+
+#lback p span, #lback > div > ul > li{
+	list-style-type:none; 
+	
+	color: #002000;
+	text-shadow: 0 0 3px #012101;
+}
+
+
+/* Profile*/
+
+/* Footer */
+.panel-footer {
+	margin-top: 15px;
+	background-image: linear-gradient(#177b80,#b4c2d6,white);
+	border: 0;
+}
+
+.panel-footer div.row {
+	margin-bottom: 5px;
+}
+
+#houses, #location, #affiliation {
+	line-height: 1.5;
+	font-size: 1.3em;
+	color: #0a0808; 
+}
+
+#houses span, #location span, #affiliation span {
+	font-size: 1.3em;
+	font-weight: 700;
+	text-align: left;
+}
+
+#location p {
+	line-height: 1.5;
+}
+
+#albus {
+	color: green;
+}
+
+.text-center {
+	font-size: 1.2em;
+	color: #0a0808;
+}
+/* Footer */
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	#letter p {
+		font-size: 1.5em;
+	}
+
+	.spell-item-description {
+		margin: 43px 0 auto 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+	}
+
+	#brand-edits {
+		padding-top: 0;	
+		margin-top: 0;	
+	}
+
+	#ddbutton {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding: 15px;
+	}
+
+	li>a>span {
+		margin-left: 10px;
+		font-size: 1.2em;
+	}
+
+	#wel {
+		font-size: 300%;
+	}
+
+	#letter {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#letter p {
+		font-size: 1.3em;
+	}
+
+	.spell-item-photo {
+		position: relative;
+		border: 2px solid white;
+		overflow: hidden;
+		padding: 0;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 250px;
+	}
+
+	h3.spell-item-title {
+		font-weight: 575;
+		font-size: 2.25em;
+		margin-top: 0;
+		text-align: center;
+	}
+
+	.spell-item-details {
+		text-align: center;
+	}
+}

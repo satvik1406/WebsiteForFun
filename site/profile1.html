@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Hogwarts</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<style>
+		@font-face {
+		font-family: 'magic_school_oneregular';
+	    src: url('magicschoolone-webfont.woff2') format('woff2'),
+	         url('magicschoolone-webfont.woff') format('woff');
+	    font-weight: normal;
+	    font-style: normal;
+	}	
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<body>
+
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left visible-sm visible-md visible-lg">
+				      <img alt="Brand" src="./images/hoglogo.png" id="hog-logo">
+				    </a>
+
+				    <div class="navbar-brand">
+				    	<a href="index.html"><h1 id="brand-edits">Hogwarts School</h1></a>
+				    	<p>
+				    		<span id="tagline">of Witchcraft & Wizadry</span>
+				    	</p>
+				    </div>
+
+				    <button id="ddbutton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>									
+				</div>		
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="letter.html">
+								<img src="./images/mail-nav.png"><br class="hidden-xs"><span>Letter</span>
+							</a>
+						</li>
+						<li>
+							<a href="sorting.html">
+								<img src="./images/hat.png"><br class="hidden-xs"><span>Sorting</span>
+							</a>
+						</li>
+						<li>
+							<a href="spells.html">
+								<img src="./images/wand.png"><br class="hidden-xs"><span>Spells</span>
+							</a>
+						</li>
+						<li>
+							<a href="Professors.html">
+								<img src="./images/profile.png"><br class="hidden-xs"><span>Profile</span>
+							</a>
+						</li>												
+					</ul>					
+				</div>
+
+			</div>
+		</nav>	
+	</header>
+
+	<div id="profile-content" class="container">
+		
+		<div class="text-center1"></div>
+
+		<section class="row">
+		    			    
+
+	<div id="lback-content" class="container">
+		<div class="row">
+
+			<div id="lback" class="col-sm-12">
+				<h2 id="profile-title" class="text-center1" style="font-size: 7em;"> Profile</h2>
+			<div><img src="./images/profile.jpg"></div>
+			<div class="profile-item-description col-sm-8">
+						<h3 class="profile-item-title">
+							<span>"I am a wizard, not a baboon brandishing a stick."</span>
+						</h3>
+						<p class="profile-item-details">Name: <span> Vishnu Priya</span></p>
+						<p class="profile-item-details">Species: <span> Veela</span></p>
+						<p class="profile-item-details">Gender:<span> Female</span></p>
+						<p class="profile-item-details">House:<span> Gryffindor</span></p>
+						<p class="profile-item-details">Skills:<span> Defense against dark arts,  </span></p>
+						<p class="profile-item-details">Clubs:<span> S.P.E.W, Dumbledore's Army</span></p>
+						<p class="profile-item-details">Address<span>The Hut under tree, Number 420, Kodaad Drive Naldon</span></p>
+						<p class="profile-item-details">Wand:<span> 11", Holly, phoenix feather</span></p>
+						<p class="profile-item-details">Blood Status:<span> Mud Blood</span></p>
+						<p class="profile-item-details">Patronous:<span> Hi Deer </span></p>
+						<p class="profile-item-details">Boggart:<span> Satvik (:p)</span></p>
+						<p class="profile-item-details">Title(s):<span> Tubelight</span></p>
+						<p class="profile-item-details">Friends: <span><ul>
+							<li>Laddoo (The Charmer)</li>
+							<li>Nobitha (Kopanandeshwari)</li>
+							<li>Zummm (Baba Flirtananda)</li>
+							<li>KD (Singilananda)</li>
+							<li>Satti</li>
+						</ul> </span></p>
+
+			</div>		
+		</div>
+		</div>
+
+
+	</div>
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="houses" class="col-sm-4">
+					<span>Houses</span><br>
+					Gryffindor<br>
+					Hufflepuff<br>
+					Slytherine<br>
+					Ravenclaw<br>
+					<hr class="visible-xs">
+				</section>
+
+				<section id="location" class="col-sm-4">
+					<span>Location</span><br>
+					<p>Hogwarts Castle<br>
+					Highlands Scotland<br>
+					Great Britain</p>
+					<p id="albus">Head Master: Albus Dumbledore</p>
+					<hr class="visible-xs">
+				</section>
+
+				<section id="affiliation" class="col-sm-4">
+					<span>Affiliations</span><br>
+					British Ministry of Magic<br>
+					Internationa Confederation of Wizards					
+				</section>			
+			</div>
+			<div class="text-center"> &copy; Copyright Hogwarts School of Witchcraft and Wizadry </div>			
+		</div>		
+	</footer>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
