@@ -56,7 +56,7 @@ body{
 #wel {
 
 	color: black;
-	text-shadow: 0 0 3px #000000;
+	text-shadow: 0 0 3px black;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -65,7 +65,7 @@ body{
   margin-bottom: 20px;
   letter-spacing: .005em; /* Adjust as needed */
   animation: 
-    typing 15s steps(40, end),
+    typing 7s steps(100, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -276,23 +276,22 @@ h3.spell-item-title {
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.tile {
+	margin-bottom: 45px;
+}
+
 .flip-card {
-	float: left;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 100px;
-  background-color: transparent;
-  width: 250px;
-  height: 275px;
-  
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	margin: 0 auto 0 auto;
+  	background-color: transparent;
+  	width: 250px;
+  	height: 275px;  
+  	perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
+  font-family: "Comic Sans MS", "Comic Sans", 'Caveat', cursive;
   position: relative;
-  width: 250px;
-  height: 275px;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -305,6 +304,7 @@ h3.spell-item-title {
 
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
+	border: 2px solid black;
   position: absolute;
   width: 250px;
   height: 275px;
@@ -320,9 +320,22 @@ h3.spell-item-title {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgba(0,0,0,0.25);
   color: white;
   transform: rotateY(180deg);
+}
+
+.flip-card-back > h1 {
+	font-weight: 600;
+	font-size: 2.25em;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	color: white;
+}
+
+.flip-card-back > p {
+
+	font-size: 1.35em;
 }
 
 /* Spells */
@@ -365,6 +378,7 @@ h3.spell-item-title {
 .profile-item-description {
 	margin: 30px 0 auto 0;
 }
+
 
 h3.profile-item-title {
 	font-weight: 575;
@@ -470,7 +484,6 @@ h3.profile-item-title {
 	text-shadow: 0 0 3px #012101;
 }
 
-
 /* Profile*/
 
 /* Footer */
@@ -555,24 +568,7 @@ h3.profile-item-title {
 		font-size: 1.3em;
 	}
 
-	.spell-item-photo {
-		position: relative;
-		border: 2px solid white;
-		overflow: hidden;
-		padding: 0;
-		margin-right: auto;
-		margin-left: auto;
-		max-width: 250px;
-	}
-
-	h3.spell-item-title {
-		font-weight: 575;
-		font-size: 2.25em;
-		margin-top: 0;
-		text-align: center;
-	}
-
-	.spell-item-details {
-		text-align: center;
+	.tile{
+		margin-bottom: 0;
 	}
 }
